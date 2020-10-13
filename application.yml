@@ -1,5 +1,5 @@
 spring:
-  datasourc:
+  datasource:
     url: jdbc:mysql://localhost:3306/rentDB?createDatabaseIfNotExist=true
     username: root
     password: 1234567890
@@ -8,4 +8,3 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-      ddl-auto: update
