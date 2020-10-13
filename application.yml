@@ -1,6 +1,6 @@
 spring:
   datasourc:
-    url: jdbc:mysql://localhost:3306/sample?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/rentDB?createDatabaseIfNotExist=true
     username: root
     password: 1234567890
     driver-class-name: com.mysql.jdbc.Driver
